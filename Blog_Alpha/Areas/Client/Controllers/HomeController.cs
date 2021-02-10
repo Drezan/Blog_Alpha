@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Blog_Alpha.Controllers
 {
+    [Area("Client")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
