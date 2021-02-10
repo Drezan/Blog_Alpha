@@ -12,4 +12,15 @@
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="5.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\Initializer\" />
+    <Folder Include="Data\Repository\" />
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blog_Alpha.Models\Blog_Alpha.Models.csproj" />
+    <ProjectReference Include="..\Blog_Alpha.Utilities\Blog_Alpha.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Blog_Alpha.Data
+namespace Blog_Alpha.Data.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

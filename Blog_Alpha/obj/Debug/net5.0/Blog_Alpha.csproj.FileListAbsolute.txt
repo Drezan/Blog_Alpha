@@ -443,3 +443,9 @@ C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha\obj\Deb
 C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha\obj\Debug\net5.0\Razor\Areas\Client\Views\Home\Privacy.cshtml.g.cs
 C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha\obj\Debug\net5.0\Razor\Areas\Client\Views\_ViewImports.cshtml.g.cs
 C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha\obj\Debug\net5.0\Razor\Areas\Client\Views\_ViewStart.cshtml.g.cs
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha\bin\Debug\net5.0\Blog_Alpha.Data.dll
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha\bin\Debug\net5.0\Blog_Alpha.Models.dll
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha\bin\Debug\net5.0\Blog_Alpha.Utilities.dll
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha\bin\Debug\net5.0\Blog_Alpha.Data.pdb
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha\bin\Debug\net5.0\Blog_Alpha.Models.pdb
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha\bin\Debug\net5.0\Blog_Alpha.Utilities.pdb

@@ -23,4 +23,8 @@
     <Folder Include="Areas\Admin\Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Blog_Alpha.DataAccess\Blog_Alpha.Data.csproj" />
+  </ItemGroup>
+
 </Project>

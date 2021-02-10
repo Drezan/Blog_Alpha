@@ -1,4 +1,4 @@
-using Blog_Alpha.Data;
+using Blog_Alpha.Data.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
