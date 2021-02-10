@@ -1,0 +1,9 @@
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Models\bin\Debug\netcoreapp3.1\Blog_Alpha.Models.deps.json
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Models\bin\Debug\netcoreapp3.1\Blog_Alpha.Models.dll
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Models\bin\Debug\netcoreapp3.1\Blog_Alpha.Models.pdb
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Models\obj\Debug\netcoreapp3.1\Blog_Alpha.Models.csprojAssemblyReference.cache
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Models\obj\Debug\netcoreapp3.1\Blog_Alpha.Models.AssemblyInfoInputs.cache
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Models\obj\Debug\netcoreapp3.1\Blog_Alpha.Models.AssemblyInfo.cs
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Models\obj\Debug\netcoreapp3.1\Blog_Alpha.Models.csproj.CoreCompileInputs.cache
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Models\obj\Debug\netcoreapp3.1\Blog_Alpha.Models.dll
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Models\obj\Debug\netcoreapp3.1\Blog_Alpha.Models.pdb

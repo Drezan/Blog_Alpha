@@ -1,0 +1,9 @@
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Utilities\bin\Debug\netcoreapp3.1\Blog_Alpha.Utilities.deps.json
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Utilities\bin\Debug\netcoreapp3.1\Blog_Alpha.Utilities.dll
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Utilities\bin\Debug\netcoreapp3.1\Blog_Alpha.Utilities.pdb
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Utilities\obj\Debug\netcoreapp3.1\Blog_Alpha.Utilities.csprojAssemblyReference.cache
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Utilities\obj\Debug\netcoreapp3.1\Blog_Alpha.Utilities.AssemblyInfoInputs.cache
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Utilities\obj\Debug\netcoreapp3.1\Blog_Alpha.Utilities.AssemblyInfo.cs
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Utilities\obj\Debug\netcoreapp3.1\Blog_Alpha.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Utilities\obj\Debug\netcoreapp3.1\Blog_Alpha.Utilities.dll
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Utilities\obj\Debug\netcoreapp3.1\Blog_Alpha.Utilities.pdb
