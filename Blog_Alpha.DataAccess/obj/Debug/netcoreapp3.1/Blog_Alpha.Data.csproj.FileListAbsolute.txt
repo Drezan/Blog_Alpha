@@ -12,3 +12,6 @@ C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.DataAcc
 C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.DataAccess\bin\Debug\netcoreapp3.1\Blog_Alpha.Utilities.pdb
 C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.DataAccess\obj\Debug\netcoreapp3.1\Blog_Alpha.Data.csprojAssemblyReference.cache
 C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.DataAccess\obj\Debug\netcoreapp3.1\Blog_Alpha.Data.csproj.CopyComplete
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.DataAccess\bin\Debug\netcoreapp3.1\Blog_Alpha.Data.runtimeconfig.json
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.DataAccess\bin\Debug\netcoreapp3.1\Blog_Alpha.Data.runtimeconfig.dev.json
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.DataAccess\obj\Debug\netcoreapp3.1\Blog_Alpha.Data.genruntimeconfig.cache
