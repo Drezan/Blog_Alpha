@@ -449,3 +449,4 @@ C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha\bin\Deb
 C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha\bin\Debug\net5.0\Blog_Alpha.Data.pdb
 C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha\bin\Debug\net5.0\Blog_Alpha.Models.pdb
 C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha\bin\Debug\net5.0\Blog_Alpha.Utilities.pdb
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Index.cshtml.g.cs

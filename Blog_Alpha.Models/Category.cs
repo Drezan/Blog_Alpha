@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
 
 namespace Blog_Alpha.Models
 {
@@ -13,9 +11,14 @@ namespace Blog_Alpha.Models
         [Required(ErrorMessage = "This field is required.")]
         [Display(Name = "Category's Name")]
         public string Name { get; set; }
-
         [Required]
         [Display(Name = "Category's Order")]
         public string Order { get; set; }
+
+        //Records. Nota: Buscar manera de simplificar esto.
+        public Nullable<int> Created_By { get; set; }
+        public Nullable<int> Modified_By { get; set; }
+        public Nullable<DateTime> Created_At { get; set; } = DateTime.Now;
+        public Nullable<DateTime> Modified_At { get; set; }
     }
 }

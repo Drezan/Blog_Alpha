@@ -31,6 +31,7 @@ namespace Blog_Alpha.Data.Data
 
             oCategory.Name = category.Name;
             oCategory.Order = category.Order;
+            oCategory.Modified_At = DateTime.Now;
 
             _db.SaveChanges();
         }
