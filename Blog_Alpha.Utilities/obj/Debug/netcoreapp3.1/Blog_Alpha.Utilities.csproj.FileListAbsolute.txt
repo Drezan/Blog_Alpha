@@ -6,3 +6,4 @@ C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Utiliti
 C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Utilities\obj\Debug\netcoreapp3.1\Blog_Alpha.Utilities.csproj.CoreCompileInputs.cache
 C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Utilities\obj\Debug\netcoreapp3.1\Blog_Alpha.Utilities.dll
 C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Utilities\obj\Debug\netcoreapp3.1\Blog_Alpha.Utilities.pdb
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Utilities\obj\Debug\netcoreapp3.1\Blog_Alpha.Utilities.csprojAssemblyReference.cache

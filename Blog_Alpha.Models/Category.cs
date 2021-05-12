@@ -13,7 +13,7 @@ namespace Blog_Alpha.Models
         public string Name { get; set; }
         [Required]
         [Display(Name = "Category's Order")]
-        public string Order { get; set; }
+        public int Order { get; set; }
 
         //Records. Nota: Buscar manera de simplificar esto.
         public Nullable<int> Created_By { get; set; }

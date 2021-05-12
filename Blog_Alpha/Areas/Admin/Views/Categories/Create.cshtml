@@ -1,0 +1,41 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "New Category";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h1>New Category</h1>
+<hr />
+<form method="post" asp-action="Create">
+    <div class="col-10 offset-3 mt-4">
+        <div class="form-group ">
+            <div class="row">
+                <div class="col-6">
+                    <label asp-for="Name" class="form-label">Category's Name</label>
+                    <input asp-for="Name" class="form-control" type="text" id="Name" name="Name" placeholder="Name" aria-label="default input example">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-6">
+                    <label asp-for="Order" class="form-label">Order</label>
+                    <input asp-for="Order" class="form-control" type="text" id="Order" name="Order" placeholder="Order" aria-label="default input example">
+                    <span asp-validation-for="Order" class="text-danger"></span>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="form-group row col-7">
+            <div class="col-9 offset-1">
+                <partial name="_SaveCancel" />
+            </div>
+        </div>
+        
+
+        <div class="row">
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+        </div>
+    </div>
+</form>

@@ -1,4 +1,5 @@
 ﻿using Blog_Alpha.Data.Data.Repository;
+using Blog_Alpha.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -16,9 +17,30 @@ namespace Blog_Alpha.Areas.Admin.Controllers
         {
             _UnityOfWork = UnityOfWork;
         }
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
+        }
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Category category)
+        {
+            if (ModelState.IsValid)
+            {
+                category.Created_At = DateTime.Now;
+                _UnityOfWork.Category.Add(category);
+                _UnityOfWork.Save();
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(category);
+            
         }
 
         #region Calling API's
