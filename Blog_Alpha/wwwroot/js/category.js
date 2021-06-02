@@ -25,7 +25,7 @@ function loadDataTable() {
                             <div class='text-center'> 
                                 <a href='/Admin/Categories/Edit/${data}' class='btn btn-outline-warning'><i class='far fa-edit'></i></a>
                                 &nbsp;
-                                <a onclick='Delete("/Admin/Categories/Delete/${data}")' class='btn btn-outline-danger'><i class='far fa-minus-square'></i></a>
+                                <a onclick=Delete("/Admin/Categories/Delete/${data}") class='btn btn-outline-danger'><i class='far fa-minus-square'></i></a>
                             </div>
                            `;
                 },
@@ -47,7 +47,7 @@ function Delete(url) {
         showCancelButton: true,
         confirmButtonColor: "#DD6855",
         confirmButtonText: "Yes, i do"
-    }, function () {
+    }).then((result) => {
             $.ajax({
                 type: "DELETE",
                 url: url,
