@@ -8,8 +8,6 @@ namespace Blog_Alpha.Data.Data.Repository
 {
     public interface IArticleRepository : IRepository<Article>
     {
-        IEnumerable<SelectListItem> GetAllArticles();
-
         void Update(Article article);
     }
 }

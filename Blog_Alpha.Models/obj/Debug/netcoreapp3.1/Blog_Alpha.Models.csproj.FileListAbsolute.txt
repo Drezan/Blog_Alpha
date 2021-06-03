@@ -9,4 +9,4 @@ C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Models\
 C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Models\bin\Debug\netcoreapp3.1\Blog_Alpha.Models.runtimeconfig.json
 C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Models\bin\Debug\netcoreapp3.1\Blog_Alpha.Models.runtimeconfig.dev.json
 C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Models\obj\Debug\netcoreapp3.1\Blog_Alpha.Models.genruntimeconfig.cache
-C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Models\obj\Debug\netcoreapp3.1\Blog_Alpha.Models.csprojAssemblyReference.cache
+C:\Users\sysan\OneDrive\Documentos\Coding\Projects\Blog_Alpha\Blog_Alpha.Models\obj\Debug\netcoreapp3.1\Blog_Alpha.Models.csproj.AssemblyReference.cache

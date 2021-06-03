@@ -16,15 +16,6 @@ namespace Blog_Alpha.Data.Data
             _db = db; 
         }
 
-        public IEnumerable<SelectListItem> GetAllArticles()
-        {
-            return _db.Articles.Select(i => new SelectListItem()
-            {
-                Text = i.Title,
-                Value = i.Id.ToString()
-            });
-        }
-
         public void Update(Article article)
         {
             var oArticle = _db.Articles.FirstOrDefault(c => c.Id == article.Id);
@@ -32,9 +23,9 @@ namespace Blog_Alpha.Data.Data
             oArticle.Title = article.Title;
             oArticle.Description = article.Description;
             oArticle.MessageText = article.MessageText;
-            oArticle.Record.Modified_At = DateTime.Now;
-
-            _db.SaveChanges();
+            oArticle.ImageUrl = article.ImageUrl;
+            oArticle.Modified_At = DateTime.Now;
+            oArticle.CategoryId = article.CategoryId;
         }
     }
 }
