@@ -25,11 +25,5 @@ namespace Blog_Alpha.Models
             this.Created_At = Created_At;
             this.Modified_At = Modified_At;
         }
-
-        //Records. Nota: Buscar manera de simplificar esto.
-        //public Nullable<int> Created_By { get; set; }
-        //public Nullable<int> Modified_By { get; set; }
-        //public Nullable<DateTime> Created_At { get; set; } = DateTime.Now;
-        //public Nullable<DateTime> Modified_At { get; set; }
     }
 }

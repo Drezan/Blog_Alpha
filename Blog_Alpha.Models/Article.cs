@@ -30,11 +30,8 @@ namespace Blog_Alpha.Models
 
         public Article() { }
         
-        public Article(int? Modified_By, DateTime? Created_At, DateTime? Modified_At)
+        public Article(int? Created_By, int? Modified_By, DateTime? Created_At, DateTime? Modified_At)
         {
-            this.Title = "";
-            this.Description = "";
-            this.MessageText = "";
             this.Created_By = Created_By;
             this.Modified_By = Modified_By;
             this.Created_At = Created_At;

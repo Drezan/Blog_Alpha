@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog_Alpha", "Blog_Alpha\Blog_Alpha.csproj", "{5A446E3E-5DB2-4F18-B9BE-6C42B0AFE49C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog_Alpha.Data", "Blog_Alpha.DataAccess\Blog_Alpha.Data.csproj", "{CD7856DC-35DA-49A1-B3D5-13BA94E44FE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog_Alpha.Data", "Blog_Alpha.DataAccess\Blog_Alpha.Data.csproj", "{CD7856DC-35DA-49A1-B3D5-13BA94E44FE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog_Alpha.Models", "Blog_Alpha.Models\Blog_Alpha.Models.csproj", "{97313025-4D96-499A-A978-08F16E5C57F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog_Alpha.Models", "Blog_Alpha.Models\Blog_Alpha.Models.csproj", "{97313025-4D96-499A-A978-08F16E5C57F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog_Alpha.Utilities", "Blog_Alpha.Utilities\Blog_Alpha.Utilities.csproj", "{56C6566F-A7FC-4904-BCBD-5F7319EEB1C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog_Alpha.Utilities", "Blog_Alpha.Utilities\Blog_Alpha.Utilities.csproj", "{56C6566F-A7FC-4904-BCBD-5F7319EEB1C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

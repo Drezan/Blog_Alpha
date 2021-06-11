@@ -16,8 +16,10 @@ function loadDataTable() {
             { "data": "id", "width": "5%" },
             { "data": "name" },
             { "data": "order" },
-            //{ "data": "Created By" },
             //{ "data": "Created At" },
+            //{ "data": "Modified At" },
+            //{ "data": "Created By" },
+            //{ "data": "Modified By" }
             {
                 "data": "id",
                 "render": function (data) {

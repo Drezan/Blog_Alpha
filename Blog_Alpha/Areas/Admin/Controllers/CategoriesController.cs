@@ -91,8 +91,6 @@ namespace Blog_Alpha.Areas.Admin.Controllers
             return Json(new { success = true, message = "The Category deleted with success." });
 
         }
-
-
         #endregion
     }
 }
