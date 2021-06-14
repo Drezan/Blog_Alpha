@@ -74,25 +74,106 @@ namespace Blog_Alpha.Areas.Admin.Controllers
             return View(articleVM);
         }
 
-        #region Calling API's
         [HttpGet]
-        public IActionResult GetAll()
+        public IActionResult Edit(int? Id)
         {
-            return Json(new { data = _UnityOfWork.Article.GetAll(IncludeProperties: "Category") });
+            ArticleVM ArticleVM = new ArticleVM()
+            {
+                Article = new Models.Article(),
+                CategoryList = _UnityOfWork.Category.GetAllCategories()
+            };
+
+            if (Id != null)
+            {
+                ArticleVM.Article = _UnityOfWork.Article.Get(Id.GetValueOrDefault());
+            }
+
+            return View(ArticleVM);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(ArticleVM articleVM)
+        {
+            if (ModelState.IsValid)
+            {
+                string UrlImage = _WebHostEnviroment.WebRootPath;
+                var Files = HttpContext.Request.Form.Files;
+
+                var oArticle = _UnityOfWork.Article.Get(articleVM.Article.Id);
+
+                if (Files.Count() > 0)
+                {
+                    string FileName = Guid.NewGuid().ToString();
+                    string UploadFile = Path.Combine(UrlImage, @"Images\Articles");
+                    var GetExtension = Path.GetExtension(Files[0].FileName);
+                    var NewExtension = Path.GetExtension(Files[0].FileName);
+
+                    var RouteImage = Path.Combine(UrlImage, oArticle.ImageUrl.TrimStart('\\'));
+
+                    if (System.IO.File.Exists(RouteImage))
+                    {
+                        System.IO.File.Delete(RouteImage);
+                    }
+
+                    //Se sube nuevamente el archivo
+                    using (var fileStream = new FileStream(Path.Combine(UploadFile, FileName + NewExtension), FileMode.Create))
+                    {
+                        Files[0].CopyTo(fileStream);
+                    }
+
+                    articleVM.Article.ImageUrl = @"Images\Articles\" + FileName + NewExtension;
+                    articleVM.Article.Modified_At = DateTime.Now;
+
+                    _UnityOfWork.Article.Update(articleVM.Article);
+                    _UnityOfWork.Save();
+
+                    return RedirectToAction(nameof(Index));
+                }
+                else
+                {
+                    articleVM.Article.ImageUrl = oArticle.ImageUrl;
+                }
+
+                _UnityOfWork.Article.Update(articleVM.Article);
+                _UnityOfWork.Save();
+            }
+
+            articleVM.CategoryList = _UnityOfWork.Category.GetAllCategories();
+
+            return View(articleVM);
         }
 
         [HttpDelete]
         public IActionResult Delete(int Id)
         {
-            var Article = _UnityOfWork.Article.Get(Id);
-            if (Article == null)
-                return Json(new { success = false, message = "Something it's wrong trying to delete this article." });
+            var oArticle = _UnityOfWork.Article.Get(Id);
+            string UrlImage = _WebHostEnviroment.WebRootPath;
 
-            _UnityOfWork.Article.Delete(Article);
+            var ImageRoute = Path.Combine(UrlImage, oArticle.ImageUrl.TrimStart('\\'));
+
+            if (System.IO.File.Exists(ImageRoute))
+            {
+                System.IO.File.Delete(ImageRoute);
+            }
+
+            if (oArticle == null)
+            {
+                return Json(new { success = false, message = "We have a problem trying to delete this article!" });
+            }
+
+            _UnityOfWork.Article.Delete(oArticle);
             _UnityOfWork.Save();
 
-            return Json(new { success = true, message = "The Article deleted with success." });
+            return Json(new { success = true, message = "Article deleted successfully" });
 
+        }
+
+        #region Calling API's
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            return Json(new { data = _UnityOfWork.Article.GetAll(IncludeProperties: "Category") });
         }
         #endregion
     }
