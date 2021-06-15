@@ -1,8 +1,7 @@
 ﻿var oTable;
 
 $(document).ready(function () {
-    loadDataTable();
-    
+    loadDataTable()
 });
 
 function loadDataTable() {
@@ -17,8 +16,10 @@ function loadDataTable() {
             { "data": "title" },
             { "data": "description" },
             { "data": "category.name" },
-            //{ "data": "created_at" },
-            //{ "data": "modified_at" },
+            { "data": "created_At", "render": function (data) {
+                    return (moment(data).isValid()) ? moment(data).format('LLL') : ""; } },
+            { "data": "modified_At", "render": function (data) {
+                    return (moment(data).isValid()) ? moment(data).format('LLL') : ""; } },
             //{ "data": "Autor" },
             //{ "data": "Modified By" }
             {
